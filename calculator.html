@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./calculator.css">
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+   <script src="./calculator.js"></script>
+
+</head>
+
+<body>
+   <div class="calculator">
+      <input type="text" class="input" id="input-field">
+      <div class="buttons">
+         <button onclick="Show('1')">1</button>
+         <button onclick="Show('2')">2</button>
+         <button onclick="Show('3')">3</button>
+         <button onclick="Show('+')">+</button>
+         <button onclick="Show('4')">4</button>
+         <button onclick="Show('5')">5</button>
+         <button onclick="Show('6')">6</button>
+         <button onclick="Show('-')">-</button>
+         <button onclick="Show('7')">7</button>
+         <button onclick="Show('8')">8</button>
+         <button onclick="Show('9')">9</button>
+         <button onclick="Show('*')">*</button>
+         <button onclick="Show('0')">0</button>
+         <button onclick="clearInputField('')">AC</button>
+         <button onclick="Show('%')">%</button>
+         <button onclick="Show('/')">/</button>
+         <button onclick="backSpace()" class="acitem"><i class="ri-delete-back-2-line"></i></button>
+
+         <button onclick="calculated_value()" class="ansitem">Ans</button>
+      </div>
+   </div>
+</body>
+
+</html>
